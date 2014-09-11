@@ -26,6 +26,7 @@ Para instalar RVM es necesario disponer de "curl", en mi caso ya disponía de es
  
 
 	Con el comando anterior, la última versión estable de ruby es instalada. Pero para añadir una versión con mas tiempo en el mercado, instale la ruby **1.9.3**
+	
 
 ```
 rvm install 1.9.3
