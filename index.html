@@ -1,79 +1,62 @@
-require 'kramdown'
+<h1>INSTALACIÓN RVM/RUBY Y GIT</h1>
 
-Kramdown::Document.new(text).to_html
+<p><strong>Autor:</strong> <em>José Antonio Rodríguez Leandro</em>  </p>
 
+<p><strong>Fecha:</strong> <em>11 Septiembre 2014</em></p>
 
+<h2>Instalando RVM</h2>
 
-INSTALACIÓN RVM/RUBY Y GIT
-==========================
-
-**Autor:** *José Antonio Rodríguez Leandro*  
-
-**Fecha:** *11 Septiembre 2014*
-
-##Instalando RVM
-
-
-A la hora de instalar esta herramienta, nos aseguramos que el usuario no  fuera administrador y 
+<p>A la hora de instalar esta herramienta, nos aseguramos que el usuario no  fuera administrador y 
 mucho menos root, ya que mi intensión es que la instalación no fuera multiusuario. 
-Para instalar RVM es necesario disponer de "curl", en mi caso ya disponía de esta herramienta, por lo que me dispuse a instalar directamente ejecutando el siguiente comando:
+Para instalar RVM es necesario disponer de "curl", en mi caso ya disponía de esta herramienta, por lo que me dispuse a instalar directamente ejecutando el siguiente comando:</p>
 
-`$ \curl -#L https://get.rvm.io | bash -s stable --autolibs=3 --ruby`
+<p><code>$ \curl -#L https://get.rvm.io | bash -s stable --autolibs=3 --ruby</code></p>
 
-![Imagen, instalando RVM](img/rvm1.png?raw=true "Instalando RVM")
+<p><img src="img/rvm1.png?raw=true" alt="Imagen, instalando RVM" title="Instalando RVM" /></p>
 
-	Luego se modifico el fichero *~/.bash_profile*, con el codigo:
-	
-	`echo "source $HOME/.rvm/scripts/rvm" >> ~/.bash_profile`
+<pre><code>Luego se modifico el fichero *~/.bash_profile*, con el codigo:
 
-![Imagen, archivo .bash_profile](img/rvm3.png?raw=true "Modificando bash_profile")
+`echo "source $HOME/.rvm/scripts/rvm" &gt;&gt; ~/.bash_profile`
+</code></pre>
 
-##Instalando Ruby
- 
+<p><img src="img/rvm3.png?raw=true" alt="Imagen, archivo .bash_profile" title="Modificando bash_profile" /></p>
 
-Con el comando anterior, la última versión estable de ruby es instalada. Pero para añadir una versión con mas tiempo en el mercado, instale la ruby **1.9.3**
-	
+<h2>Instalando Ruby</h2>
 
-```
+<p>Con el comando anterior, la última versión estable de ruby es instalada. Pero para añadir una versión con mas tiempo en el mercado, instale la ruby <strong>1.9.3</strong></p>
+
+<p><code>
 rvm install 1.9.3
-rvm use 1.9.3 
-```
-![Imagen, instalando Ruby](img/rvm4.png?raw=true "Instalando Ruby")
+rvm use 1.9.3
+</code>
+<img src="img/rvm4.png?raw=true" alt="Imagen, instalando Ruby" title="Instalando Ruby" /></p>
 
+<h2>Git y las Gemas Sinatra y twitter</h2>
 
-##Git y las Gemas Sinatra y twitter
- 
+<p>El último paso es la instalación de Git, el cual ya estaba instalado en el sistema, así como las gemas <em>sinatra</em> y <em>twitter</em>.</p>
 
-El último paso es la instalación de Git, el cual ya estaba instalado en el sistema, así como las gemas *sinatra* y *twitter*.
+<ul>
+<li><p>Instalar git es muy sencillo:</p>
 
-* Instalar git es muy sencillo:
+<p><code>$ apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \ libz-dev libssl-dev</code></p>
 
- `$ apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \ libz-dev libssl-dev`
- 
- `$ apt-get install git`
+<p><code>$ apt-get install git</code></p></li>
+<li><p>Al igual que las gemas:</p>
 
-* Al igual que las gemas:
+<p><code>gem install sinatra</code></p>
 
- `gem install sinatra`
- 
- `gem install twitter`
+<p><code>gem install twitter</code></p></li>
+</ul>
 
-![Imagen, instalando Sinatra](img/rvm7.png?raw=true "Instalando Sinatra")
-![Imagen, instalando twitter](img/rvm8.png?raw=true "Instalando twitter")
+<p><img src="img/rvm7.png?raw=true" alt="Imagen, instalando Sinatra" title="Instalando Sinatra" />
+<img src="img/rvm8.png?raw=true" alt="Imagen, instalando twitter" title="Instalando twitter" /></p>
 
-	
-FUENTES:
+<p>FUENTES:</p>
 
-![Enlace: instalar RVM/ruby](http://rvm.io/rvm/install "Instalar RVM/ruby")
+<p><img src="http://rvm.io/rvm/install" alt="Enlace: instalar RVM/ruby" title="Instalar RVM/ruby" /></p>
 
-![Enlace: instalar Git](http://git-scm.com/book/es/Empezando-Instalando-Git "Instalar Git")
+<p><img src="http://git-scm.com/book/es/Empezando-Instalando-Git" alt="Enlace: instalar Git" title="Instalar Git" /></p>
 
-![Enlace: instalar sinatra](https://rubygems.org/gems/sinatra "Instalar sinatra")
+<p><img src="https://rubygems.org/gems/sinatra" alt="Enlace: instalar sinatra" title="Instalar sinatra" /></p>
 
-![Enlace: instalar twitter](https://rubygems.org/gems/twitter "Instalar twitter")
-
-
-
-
-
-
+<p><img src="https://rubygems.org/gems/twitter" alt="Enlace: instalar twitter" title="Instalar twitter" /></p>
