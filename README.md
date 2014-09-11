@@ -8,7 +8,7 @@ INSTALACIÓN RVM/RUBY Y GIT
 ##Instalando RVM
 
 
-	A la hora de instalar esta herramienta, nos aseguramos que el usuario no  fuera administrador y 
+A la hora de instalar esta herramienta, nos aseguramos que el usuario no  fuera administrador y 
 mucho menos root, ya que mi intensión es que la instalación no fuera multiusuario. 
 Para instalar RVM es necesario disponer de "curl", en mi caso ya disponía de esta herramienta, por lo que me dispuse a instalar directamente ejecutando el siguiente comando:
 
@@ -25,7 +25,7 @@ Para instalar RVM es necesario disponer de "curl", en mi caso ya disponía de es
 ##Instalando Ruby
  
 
-	Con el comando anterior, la última versión estable de ruby es instalada. Pero para añadir una versión con mas tiempo en el mercado, instale la ruby **1.9.3**
+Con el comando anterior, la última versión estable de ruby es instalada. Pero para añadir una versión con mas tiempo en el mercado, instale la ruby **1.9.3**
 	
 
 ```
