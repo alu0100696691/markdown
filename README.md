@@ -22,7 +22,7 @@ Para instalar RVM es necesario disponer de "curl", en mi caso ya disponía de es
 
 ![Imagen, archivo .bash_profile](img/rvm3.png?raw=true "Modificando bash_profile")
 
-* Instalando Ruby
+##Instalando Ruby
  
 
 	Con el comando anterior, la última versión estable de ruby es instalada. Pero para añadir una versión con mas tiempo en el mercado, instale la ruby **1.9.3**
@@ -34,18 +34,18 @@ rvm use 1.9.3
 ![Imagen, instalando Ruby](img/rvm4.png?raw=true "Instalando Ruby")
 
 
-* Git y las Gemas Sinatra y twitter
+##Git y las Gemas Sinatra y twitter
  
 
-	El último paso es la instalación de Git, el cual ya estaba instalado en el sistema, así como las gemas *sinatra* y *twitter*.
+El último paso es la instalación de Git, el cual ya estaba instalado en el sistema, así como las gemas *sinatra* y *twitter*.
 
-Instalar git es muy sencillo:
+* Instalar git es muy sencillo:
 
  `$ apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \ libz-dev libssl-dev`
  
  `$ apt-get install git`
 
-Al igual que las gemas:
+* Al igual que las gemas:
 
  `gem install sinatra`
  
