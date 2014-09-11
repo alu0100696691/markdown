@@ -1,8 +1,9 @@
 INSTALACIÓN RVM/RUBY Y GIT
 ==========================
 
-**Autor:** *José Antonio Rodríguez Leandro*  >alu0100696691
-**Fecha: *11 Septiembre 2014*
+**Autor:** *José Antonio Rodríguez Leandro*  
+
+**Fecha:** *11 Septiembre 2014*
 
 * Instalando RVM
 	A la hora de instalar esta herramienta, nos aseguramos que el usuario no  fuera administrador y 
@@ -32,11 +33,15 @@ rvm use 1.9.3
 	El último paso es la instalación de Git, el cual ya estaba instalado en el sistema, así como las gemas *sinatra* y *twitter*.
 
 Instalar git es muy sencillo:
+
  `$ apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \ libz-dev libssl-dev`
+ 
  `$ apt-get install git`
 
 Al igual que las gemas:
+
  `gem install sinatra`
+ 
  `gem install twitter`
 
 ![Imagen, instalando Sinatra](img/rvm7.png?raw=true "Instalando Sinatra")
