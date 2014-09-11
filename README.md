@@ -13,7 +13,9 @@ Para instalar RVM es necesario disponer de "curl", en mi caso ya disponía de es
 
 ![Imagen, instalando RVM](img/rvm1.png?raw=true "Instalando RVM")
 
-	Luego se modifico el fichero *~/.bash_profile*, con el codigo: `echo "source $HOME/.rvm/scripts/rvm" >> ~/.bash_profile`
+	Luego se modifico el fichero *~/.bash_profile*, con el codigo:
+	
+	`echo "source $HOME/.rvm/scripts/rvm" >> ~/.bash_profile`
 
 ![Imagen, archivo .bash_profile](img/rvm3.png?raw=true "Modificando bash_profile")
 
@@ -44,8 +46,11 @@ Al igual que las gemas:
 FUENTES:
 
 ![Enlace: instalar RVM/ruby](http://rvm.io/rvm/install "Instalar RVM/ruby")
+
 ![Enlace: instalar Git](http://git-scm.com/book/es/Empezando-Instalando-Git "Instalar Git")
+
 ![Enlace: instalar sinatra](https://rubygems.org/gems/sinatra "Instalar sinatra")
+
 ![Enlace: instalar twitter](https://rubygems.org/gems/twitter "Instalar twitter")
 
 
