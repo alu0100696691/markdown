@@ -5,7 +5,7 @@ INSTALACIÓN RVM/RUBY Y GIT
 
 **Fecha:** *11 Septiembre 2014*
 
-* Instalando RVM
+##Instalando RVM
 
 
 	A la hora de instalar esta herramienta, nos aseguramos que el usuario no  fuera administrador y 
